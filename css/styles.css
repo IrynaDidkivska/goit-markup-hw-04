@@ -198,7 +198,6 @@ ol {
 
 .features-list {
   display: flex;
-  align-items: center;
   column-gap: 24px;
 }
 .features-item {
@@ -206,6 +205,7 @@ ol {
 }
 .features-thumb {
   display: flex;
+  align-items: center;
   justify-content: center;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -288,6 +288,11 @@ ol {
   justify-content: center;
   gap: 24px;
 }
+.footer-socials {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
 .socials-link {
   display: flex;
   align-items: center;
@@ -301,6 +306,10 @@ ol {
 .socials-link:hover,
 .socials-link:focus {
   background-color: var(--hover-focus-link);
+}
+.footer-socials--link:hover,
+.footer-socials--link:focus {
+  background-color: #31d0aa;
 }
 .socials-icon {
   fill: currentColor;
@@ -445,5 +454,5 @@ ol {
 .footer-title {
   font-weight: 500;
   margin-bottom: 16px;
-  color: var(--footer-text);
+  color: var(--white-color);
 }
